@@ -1,6 +1,6 @@
 # backendKalebMakmur
 
-Backend ini dibangun dengan teknologi dan pustaka berikut:
+Backend ini dibangun dengan database mysql dan teknologi serta pustaka sebagai berikut:
 
 - **bcrypt**: Digunakan untuk hashing password sebelum disimpan di database, memastikan keamanan data pengguna.
 - **cookie-parser**: Untuk parsing cookies dari request HTTP, memungkinkan pengelolaan sesi dan autentikasi pengguna.
@@ -15,7 +15,7 @@ Backend ini dibangun dengan teknologi dan pustaka berikut:
 
 ## File Database
 
-Database file disimpan di folder `db`. Pastikan untuk file di folder ini untuk memudahkan mendapatkan file database.
+Database file disimpan di folder `db`. Pastikan untuk membuka file di folder ini untuk memudahkan mendapatkan file database.
 
 ## Prerequisites
 
