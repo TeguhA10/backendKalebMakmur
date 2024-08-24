@@ -1,5 +1,19 @@
 # backendKalebMakmur
 
+Backend ini dibangun dengan teknologi dan pustaka berikut:
+
+- **bcrypt**: Digunakan untuk hashing password sebelum disimpan di database, memastikan keamanan data pengguna.
+- **cookie-parser**: Untuk parsing cookies dari request HTTP, memungkinkan pengelolaan sesi dan autentikasi pengguna.
+- **cors**: Untuk mengatur kebijakan Cross-Origin Resource Sharing, memungkinkan frontend berinteraksi dengan backend dari domain yang berbeda.
+- **express**: Framework Node.js minimalis untuk membangun server HTTP yang cepat dan modular.
+- **mysql2**: Library untuk menghubungkan dan berinteraksi dengan database MySQL secara efisien.
+- **jsonwebtoken**: Digunakan untuk membuat dan memverifikasi JSON Web Tokens (JWT) sebagai bagian dari mekanisme autentikasi.
+- **sequelize-cli**: Alat command line untuk ORM Sequelize, memudahkan pembuatan, migrasi, dan pengelolaan database.
+- **nodemon**: Alat yang membantu dalam pengembangan dengan otomatis merestart server ketika ada perubahan file.
+- **uuid**: Digunakan untuk menghasilkan Unique User ID (UUID) secara acak, digunakan sebagai pengenal unik untuk entitas dalam database.
+- **multer**: Middleware untuk menangani upload file dalam aplikasi Express, memudahkan pengelolaan file yang diunggah oleh pengguna.
+
+
 ## Prerequisites
 
 Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/) dan [npm](https://www.npmjs.com/).
