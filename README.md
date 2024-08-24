@@ -13,6 +13,9 @@ Backend ini dibangun dengan teknologi dan pustaka berikut:
 - **uuid**: Digunakan untuk menghasilkan Unique User ID (UUID) secara acak, digunakan sebagai pengenal unik untuk entitas dalam database.
 - **multer**: Middleware untuk menangani upload file dalam aplikasi Express, memudahkan pengelolaan file yang diunggah oleh pengguna.
 
+## File Database
+
+Database file disimpan di folder `db`. Pastikan untuk file di folder ini untuk memudahkan mendapatkan file database.
 
 ## Prerequisites
 
